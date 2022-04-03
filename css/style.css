@@ -1,0 +1,97 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.content{
+
+    height: 100vh;
+    background-image: linear-gradient(#000,#07060E,#110f2a);
+    
+}
+
+.navigation-bar{
+
+    padding: 20px 0;
+    margin-bottom: 10px;
+    color:white;
+    font-size:1.5em;
+    font-family: 'Roboto Mono', monospace;
+    text-align: right;
+
+}
+
+.navigation-bar ul{
+
+    height: 100%;
+    list-style: none;
+    line-height:60px;
+    
+}
+
+.navigation-bar li{
+
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.cover{
+
+    width:100%;
+    color:gray;
+    vertical-align: top;
+    
+}
+
+.cover span{
+
+    color:white;
+    display:block;
+    font-size:60px;
+    
+}
+
+.cover div{
+
+    display: inline-block;
+    
+}
+
+.cover .profile-description{
+
+    width: 49%;
+    vertical-align: top;
+    margin-top:12%;
+    text-transform: uppercase;
+}
+
+.cover .profile-description h1{
+    font-size: 3em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.cover .profile-description h2{
+    font-size: 1.5em ;
+    font-family: 'VT323', monospace;
+    margin-top: 40px;
+}
+
+.img-profile{
+
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    
+    
+}
+.img-profile img{
+
+    width: 500px;
+    height: 500px;
+    margin-top: 12%;
+    border-radius: 50%;
+   
+}
+
