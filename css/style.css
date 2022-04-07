@@ -224,31 +224,39 @@ body{
     background-color: #6B697B;
     opacity: 0;
     
+    
+    
 }
 .blackbox:hover{
-    opacity: 0.5;
+    opacity: 0.8;
+    
 }
 
 .blackbox-text{
 
+    width: 100%; 
+    height:100%;
     text-align: center;
+   
     
 }
 
 .blackbox-text h1{
-
-    font-size:16px;
+   
+    font-size:10px;
     text-transform: uppercase;
-    padding-top: 25%;
+    font-weight: 400;
+    padding-top: 20%;
     margin-top:0;
 }
+
+
 
 .blackbox-text h2{
     
     text-transform: none;
     font-weight: 100;
-    margin:0;
-
+    
 }
 @keyframes animation-pages {
     0% {opacity:0}
@@ -377,7 +385,7 @@ body{
 
     }
     .blackbox{
-        opacity:0.5;
+        opacity:0.8;
     }
 
     .menujs{
