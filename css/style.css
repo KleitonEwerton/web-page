@@ -6,7 +6,7 @@ html, body{
     
 }
 body{
-     
+    background-color: #090810;
     background-image: linear-gradient(to right,#000,#090812);
     background-size:contain;
     animation-name: animation-pages;
@@ -59,6 +59,11 @@ body{
 }
 .navigation-bar .three-line-icon{
     display:none;
+    color:#fff;
+}
+.navigation-bar .three-line-icon:hover{
+    
+    color:#888795;
 }
 
 .cover{
@@ -314,14 +319,14 @@ body{
         margin-top: 30px;
         margin-left: 10px;
         margin-right: 10px;
-        font-size: 2em;
+        font-size: 1.5em;
        
     }
 
     
     .cover .profile-description h2{
 
-        margin-top: 30px;
+        margin-top: 10px;
         margin-left: 50px;
         margin-right: 50px;
         font-size: 1em;
@@ -346,11 +351,16 @@ body{
     .cv-image{
 
         float:none;
-        width: 240px;
-        margin: 30px 25% 30px 25% ;
+        width: 50vw;
+        max-width: 240px;
+        margin: 30px 20vw 30px 20vw ;
        
     }
-   
+    
+    .contato p{ 
+        font-size:15px;
+    }
+
     .main h3{
         margin: 10px 0 10px 0;
     }
@@ -368,5 +378,25 @@ body{
     }
     .blackbox{
         opacity:0.5;
+    }
+
+    .menujs{
+
+        height:auto;
+
+    }
+    .menujs ul{
+
+        height:auto;
+        text-align: center;
+        padding-right: 10%;
+        padding-left:10%;
+    }
+    .menujs li{
+
+        display: block;
+        border-bottom: 1px solid #fff;
+        width: 100%;
+        padding:0;
     }
 }

@@ -10,23 +10,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=VT323&display=swap" rel="stylesheet">
     <link href="fontawesome/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/scrip.js"></script>
+    
     <title>Kleiton Ewerton de Oliveira</title>
 
 </head>
 <body>
     
     <div class="main">
-        <div class="navigation-bar">
+        <div id="navagation" class="navigation-bar">
             <ul>
     
                 <li><a href="index.html">Home</a></li>
                 <li><a href="portifolio.html">Portifólio</a> </li>
                 <li><a href="curriculo.html">Currículo</a></li>
                 <li><a href="contato.html">Contato</a></li>
-                <li class="three-line-icon"><a href=""><i class="fa-bars fa-solid"></i></a></li>
+                <li class="three-line-icon" onclick="openNav()"><i id="icon" class="fa-bars fa-solid"></i></li>
+    
             </ul>
         </div>
-
         <div>
 				
 			<!-- breadcrumbs -->
@@ -66,12 +68,15 @@
         <h2>Sobre Mim</h2>
         <hr>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque ipsum vitae malesuada ultrices. Proin suscipit nulla odio, sit amet cursus ipsum fringilla ac. Morbi et turpis odio. Praesent diam ex, malesuada ornare neque et, placerat tincidunt nunc. Ut sit amet ex tincidunt, viverra nisl vitae, aliquam purus. Nam purus dolor, maximus in quam sed, aliquam congue ipsum. Integer eleifend id ante sed porta.</p>
+            <p>Olá, sou Kleiton Ewerton estudante de Ciências Exatas na UFJF com foco na ciência da computação. Iniciei minha graduação em 2020 e pretendo me formar até o fim de 2023, onde pretendo continuar meus estudos na área de modo a me tornar um melhor profissional.</p>
 
-                <p>Sed posuere sit amet mi ac rhoncus. Donec ac pretium nibh. Curabitur id nisi et lorem efficitur molestie. Quisque diam nulla, pulvinar sit amet porttitor id, mollis viverra leo. Fusce in tellus porttitor, suscipit turpis et, faucibus dui. Donec sit amet magna id nunc bibendum fermentum. Praesent quam odio, venenatis non tellus eu, molestie luctus erat. Mauris eu ultricies metus.</p>
-
+            <p>Atualmente estou participando do treinamento de desenvolvimento web da CodeJr de minha universidade, em que fui intruido a criar essa minha webpage.</p>
+            
+            <p>Em minhas horas livres, gosto de jogar jogos eletrônicos enquanto escuto uma música, principalmente  jogos do gênero RPG e FPS, além de realizar práticas ao ar livre como caminhadas e, recentemente, musculação.</p>
+            
+            <p>Pretendo aperfeiçoar meu nível profissional crescente, e fornecer meus conhecimentos em prol do desenvolvimento de quaisquer projetos que venha trabalhar.</p>
         
-        <h2>Educação</h2>
+            <h2>Educação</h2>
         <hr>
             <h3>2020 - Em andamento</h3>
 
@@ -105,8 +110,11 @@
 
         <h2>Contato</h2>
         <hr>
-            <p>kleitonewertonoliveira@gmail.com<br>
-            +55 (32) 988443907</p>
+            <div class="contato">
+                <p >kleitonewertonoliveira@gmail.com<br>
+                    +55 (32) 988443907</p>
+            </div>
+            
             
 
             

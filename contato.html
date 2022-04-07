@@ -9,8 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=VT323&display=swap" rel="stylesheet">
     <link href="fontawesome/css/all.css" rel="stylesheet">
-
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/scrip.js"></script>
+    
     <title>Kleiton Ewerton de Oliveira</title>
 
 </head>
@@ -19,16 +20,18 @@
     
     
     <div class="main">
-        <div class="navigation-bar">
+        <div id="navagation" class="navigation-bar">
             <ul>
     
                 <li><a href="index.html">Home</a></li>
                 <li><a href="portifolio.html">Portifólio</a> </li>
                 <li><a href="curriculo.html">Currículo</a></li>
                 <li><a href="contato.html">Contato</a></li>
-                <li class="three-line-icon"><a href=""><i class="fa-bars fa-solid"></i></a></li>
+                <li class="three-line-icon" onclick="openNav()"><i id="icon" class="fa-bars fa-solid"></i></li>
+    
             </ul>
         </div>
+    
 
         <div>
 				
@@ -44,10 +47,10 @@
 			
 
 				<h3>E-mail:</h3>
-				<p>kleitonewertonoliveira@gmail.com</p>
+				<span class="contato"><p>kleitonewertonoliveira@gmail.com</p></span>
 
 				<h3>Whatsapp</h3>
-				<p>+55 (32) 988443907</p>
+				<span class="contato"><p>+55 (32) 988443907</p></span>
 
 				<h3>Redes Sociais:</h3>
 				<ul class="redes-sociais fa-2x">
