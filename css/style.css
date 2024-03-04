@@ -1,29 +1,35 @@
-
-html, body{
+html,
+body {
 
     padding: 0px;
     margin: 0px;
-    
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+
+
 }
-body{
+
+body {
     background-color: #090810;
-    background-image: linear-gradient(to right,#000,#090812);
-    background-size:contain;
+    background-image: linear-gradient(to right, #000, #090812);
+    background-size: contain;
     animation-name: animation-pages;
     animation-duration: 1s;
 }
 
-.content{
+.content {
 
     height: 100vh;
-    
+
 }
 
-.navigation-bar{
+.navigation-bar {
 
     padding: 20px 0;
     margin-bottom: 10px;
-    font-size:1.5em;
+    font-size: 1.5em;
     font-family: 'Roboto Mono', monospace;
     text-align: right;
 
@@ -31,104 +37,107 @@ body{
 
 
 
-.navigation-bar ul{
+.navigation-bar ul {
 
     height: 100%;
     list-style: none;
-    line-height:60px;
-    
+    line-height: 60px;
+
 }
 
-.navigation-bar li{
+.navigation-bar li {
 
     display: inline-block;
     padding: 0px 30px;
 
 }
 
-.navigation-bar li a{
+.navigation-bar li a {
 
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
-.navigation-bar li a:hover{
-    
-    color:#888795;
+.navigation-bar li a:hover {
+
+    color: #888795;
 
 }
-.navigation-bar .three-line-icon{
-    display:none;
-    color:#fff;
-}
-.navigation-bar .three-line-icon:hover{
-    
-    color:#888795;
+
+.navigation-bar .three-line-icon {
+    display: none;
+    color: #fff;
 }
 
-.cover{
+.navigation-bar .three-line-icon:hover {
 
-    width:100%;
-    color:#6B697B;
+    color: #888795;
+}
+
+.cover {
+
+    width: 100%;
+    color: #6B697B;
     vertical-align: top;
-    
-    
+
+
 }
 
-.cover span{
+.cover span {
 
-    color:#fff;
-    display:block;
-    font-size:60px;
-    
+    color: #fff;
+    display: block;
+    font-size: 60px;
+
 }
 
-.cover div{
+.cover div {
 
     display: inline-block;
-    height:640px;
-    
+    height: 640px;
+
 }
 
 
-.cover .img-profile{
+.cover .img-profile {
 
     width: 40%;
     text-align: center;
-    animation-name:animation-cover-image;
-    animation-duration:2s;
-    
+    animation-name: animation-cover-image;
+    animation-duration: 2s;
+
 }
-.cover .img-profile img{
+
+.cover .img-profile img {
 
     width: 320px;
     margin-top: 100px;
     border-radius: 50%;
-   
+
 }
 
-.cover .profile-description{
+.cover .profile-description {
 
     vertical-align: top;
     margin-top: 100px;
-    width:59%;
+    width: 59%;
     text-transform: uppercase;
-    animation-name:animation-cover-text;
-    animation-duration:2s;
+    animation-name: animation-cover-text;
+    animation-duration: 2s;
 }
 
-.cover .profile-description h1{
+.cover .profile-description h1 {
     font-size: 3em;
     font-family: 'Roboto Mono', monospace;
 }
 
-.cover .profile-description h2{
-    font-size: 1.5em ;
+.cover .profile-description h2 {
+    font-size: 1.5em;
     font-family: 'VT323', monospace;
     margin-top: 40px;
 }
 
-.cv-image{
+.cv-image {
 
     float: left;
     width: 300px;
@@ -136,68 +145,70 @@ body{
 
 }
 
-.main{
+.main {
     padding: 40px 180px 80px 100px;
 }
 
 
-.main h1{
+.main h1 {
 
     font-weight: normal;
-    color:#fff;
-    padding:80px 100px 180px 0;
+    color: #fff;
+    padding: 80px 100px 180px 0;
     margin-bottom: 50px;
 }
 
-.main h2{
+.main h2 {
 
     font-weight: normal;
-    color:#fff;
+    color: #fff;
     font-size: 12px;
     text-transform: uppercase;
 }
-.main h3{
 
-    color:#6B697B;
+.main h3 {
+
+    color: #6B697B;
     font-size: 12px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     margin: 20px 0;
 
 }
 
-.main p{
+.main p {
 
     font-size: 18px;
     font-weight: 100;
-    color:#fff;
+    color: #fff;
     font-family: 'Roboto Mono', monospace;
-    margin:0px 0px 50px 20px;
+    margin: 0px 0px 50px 20px;
     text-align: justify;
 
 }
 
 
-.main h1{
+.main h1 {
     padding: 20px 30px;
 }
 
-.caminho{
+.caminho {
 
     list-style: none;
     padding-left: 0;
-    color:#6B697B;
+    color: #6B697B;
 
 }
-.caminho li{
+
+.caminho li {
     display: inline-block;
 }
 
-.redes-sociais ul{
+.redes-sociais ul {
     margin: 0;
     padding: 0;
 }
 
-.redes-sociais li{
+.redes-sociais li {
 
     display: inline-block;
     list-style: none;
@@ -206,205 +217,233 @@ body{
 
 }
 
-.miniatura{
+.miniatura {
 
     margin-left: 3vw;
-    margin-top:5vw;
+    margin-top: 5vw;
     width: 320px;
     height: 320px;
     display: inline-block;
     background-size: contain;
-    
+
 }
 
-.blackbox{
+.blackbox {
 
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     background-color: #6B697B;
     opacity: 0;
-    
-    
-    
+
+
+
 }
-.blackbox:hover{
+
+.blackbox:hover {
     opacity: 0.8;
-    
+
 }
 
-.blackbox-text{
+.blackbox-text {
 
-    width: 100%; 
-    height:100%;
+    width: 100%;
+    height: 100%;
     text-align: center;
-   
-    
+
+
 }
 
-.blackbox-text h1{
-   
-    font-size:10px;
+.blackbox-text h1 {
+
+    font-size: 10px;
     text-transform: uppercase;
     font-weight: 400;
     padding-top: 20%;
-    margin-top:0;
+    margin-top: 0;
 }
 
 
 
-.blackbox-text h2{
-    
+.blackbox-text h2 {
+
     text-transform: none;
     font-weight: 100;
-    
+
 }
+
 @keyframes animation-pages {
-    0% {opacity:0}
-    100% {opacity:1}
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
 }
 
 @keyframes animation-cover-image {
-    0% {opacity:0;transform: translate(0px,20px);}
-    100% {opacity:1;transform: translate(0px,0px);}
+    0% {
+        opacity: 0;
+        transform: translate(0px, 20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
 
 }
+
 @keyframes animation-cover-text {
-    0% {opacity:0;transform: translate(0px,-20px);}
-    100% {opacity:1;transform: translate(0px,0px);}
+    0% {
+        opacity: 0;
+        transform: translate(0px, -20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
 
 }
 
 
-@media (max-width:1000px){
+@media (max-width:1000px) {
 
-    .navigation-bar li{
+    .navigation-bar li {
         display: none;
     }
-    .navigation-bar .three-line-icon{
-        display:inline-block;
-        
+
+    .navigation-bar .three-line-icon {
+        display: inline-block;
+
     }
 
-    .cover div{
+    .cover div {
 
         display: block;
-        height:auto;
-        
+        height: auto;
+
     }
 
-    .cover .img-profile{
+    .cover .img-profile {
 
-        width:100%;
-       
+        width: 100%;
+
     }
 
-    .cover .img-profile img{
+    .cover .img-profile img {
 
         margin-top: 0;
         width: 250px;
         margin: 0;
-        padding:0;
+        padding: 0;
 
     }
 
-    .cover .profile-description{
+    .cover .profile-description {
 
-        width:100%;
+        width: 100%;
         margin-top: 0;
         text-align: center;
-        
+
     }
 
-    .cover .profile-description span{
+    .cover .profile-description span {
 
         margin-top: 30px;
         font-size: 1.4em;
-       
+
     }
 
-    .cover .profile-description h1{
+    .cover .profile-description h1 {
 
         margin-top: 30px;
         margin-left: 10px;
         margin-right: 10px;
         font-size: 1.5em;
-       
+
     }
 
-    
-    .cover .profile-description h2{
+
+    .cover .profile-description h2 {
 
         margin-top: 10px;
         margin-left: 50px;
         margin-right: 50px;
         font-size: 1em;
 
-       
+
     }
 
-    .main{
+    .main {
 
         padding: 10px 5% 40px 5%;
 
     }
-    .main p{
+
+    .main p {
         text-align: left;
         line-height: 30px;
     }
 
-    .caminho li{
+    .caminho li {
         font-size: 12px;
 
     }
-    .cv-image{
 
-        float:none;
+    .cv-image {
+
+        float: none;
         width: 50vw;
         max-width: 240px;
-        margin: 30px 20vw 30px 20vw ;
-       
-    }
-    
-    .contato p{ 
-        font-size:15px;
+        margin: 30px 20vw 30px 20vw;
+
     }
 
-    .main h3{
+    .contato p {
+        font-size: 15px;
+    }
+
+    .main h3 {
         margin: 10px 0 10px 0;
     }
 
-    .miniatura{
-       
+    .miniatura {
+
         margin-left: 20vw;
         margin-right: 20vw;
-        width:45vw;
-        height:45vw;
-        max-width:320px;
-        max-height:320px;
+        width: 45vw;
+        height: 45vw;
+        max-width: 320px;
+        max-height: 320px;
         background-repeat: no-repeat;
 
     }
-    .blackbox{
-        opacity:0.8;
+
+    .blackbox {
+        opacity: 0.8;
     }
 
-    .menujs{
+    .menujs {
 
-        height:auto;
+        height: auto;
 
     }
-    .menujs ul{
 
-        height:auto;
+    .menujs ul {
+
+        height: auto;
         text-align: center;
         padding-right: 10%;
-        padding-left:10%;
+        padding-left: 10%;
     }
-    .menujs li{
+
+    .menujs li {
 
         display: block;
         border-bottom: 1px solid #fff;
         width: 100%;
-        padding:0;
+        padding: 0;
     }
 }
